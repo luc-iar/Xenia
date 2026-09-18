@@ -73,6 +73,7 @@ body {
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
+  align-items: end;
   gap: 5px;
 }
 
@@ -141,6 +142,8 @@ body {
     cursor: pointer;
     opacity: 0;
     transition: opacity 0.3s ease;
+    pointer-events: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .gallery:hover .arrow-button {
