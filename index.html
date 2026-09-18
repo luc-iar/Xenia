@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Xenia Portfolio</title>
+  <link href="css/style.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+    <header class="navbar">
+        <a href="#" class="name">XENIA MÄRZ</a>
+
+        <nav class="nav-links">
+            <a href="index.html">Index</a>
+            <a href="#">Lebenslauf</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+        <button class="menu-toggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main class="gallery">
+        <div class="image-container">
+            <img src="images/image-01.jpg" class="gallery-image active" alt="Gallery image 1">
+            <img src="images/image-02.jpg" class="gallery-image" alt="Gallery image 2">
+            <img src="images/image-03.jpg" class="gallery-image" alt="Gallery image 3">
+            <img src="images/image-04.jpg" class="gallery-image" alt="Gallery image 4">
+        </div>
+
+        <!-- Navigation -->
+
+        <div class="arrow">
+            <button class="arrow-button previous" aria-label="Previous image"></button>
+            <button class="arrow-button next" aria-label="Next image"></button>
+        </div>
+
+        <!-- Image counter -->
+
+        <div class="counter">
+            <span id="current">01</span>
+            /
+            <span id="total">04</span>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
